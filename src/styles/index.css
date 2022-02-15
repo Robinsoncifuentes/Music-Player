@@ -1,12 +1,38 @@
-
-/* 
-
-    You can write your own styles here...
+.contenido{
+    width: calc(100% - 200px);
+    padding: 20px;
+    background: #121212;
+}
+.musicplayer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    color: white;
+}
+.playbar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background: #282828;
+    z-index: 99;
+    padding: 20px;
+}
+.sidebar{
+    width: 200px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+    background: #000000;
+    padding: 20px;
+}
+.topbar{
+    position: absolute;
+    top: 0;
+    height: 50px;
+    background: #070707;
+    left: 200px;
+    width: calc(100% - 200px);
+    padding: 20px;
 
-*/
+}
